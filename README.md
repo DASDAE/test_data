@@ -13,3 +13,4 @@ The following files are trimmed (but otherwise unmodified) excerpts from the Glo
 Additional external sources:
 
 - `das/ai4eps_1.h5` — trimmed excerpt of event `ci37280444` (Ridgecrest north array) from the [AI4EPS quakeflow_das dataset](https://huggingface.co/datasets/AI4EPS/quakeflow_das) (MIT license).
+- `das/nokia_ofdr_1` and `das/nokia_ofdr_downsampled_1.h5` — the Nokia Bell Labs multi-span (OFDR) binary layout and its manually downsampled HDF5 variant, from the OOI Regional Cabled Array 2025–2026 experiment ([doi:10.5281/zenodo.19930402](https://doi.org/10.5281/zenodo.19930402), CC BY 4.0). Headers and acquisition metadata come from real files, with host details removed and the file cut to 10 chunks (binary) or a 500 × 256 slab (HDF5). The array values are seeded synthetic noise, not recorded data.
